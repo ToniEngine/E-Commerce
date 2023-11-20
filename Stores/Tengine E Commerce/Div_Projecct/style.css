@@ -1,0 +1,32 @@
+.flex-container{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+.flex-item1{
+    border: 1px solid orange;
+    width: 30%;
+    height: 350px;
+
+}
+.flex-item2{
+    border: 1px solid red;
+    visibility: hidden;
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    /* top: 5%; */
+    left: 450px;
+
+    background-color: orange;
+    z-index: 1  ;
+
+}
+.flex-item3{
+    border: 1px solid yellow;
+    width: 30%;
+
+}

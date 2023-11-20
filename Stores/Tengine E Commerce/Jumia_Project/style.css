@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif; */
+}
+
+/* styling for body */
+body, html {
+    min-height: 100%;
+}
+body{
+    direction: ltr;
+    min-width: 950px;
+    background: black;
+
+}
+
+
+
+
+#jm{
+    background-color: gold;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    /* border: 2px solid darkturquoise; */
+    /* margin-top: 0; */
+    position: relative;
+    color: white;
+}
+
+
+.main, .footer{
+    border: 2px solid green;
+    /* background-color: orange; */
+    width: 450px;
+    /* height: 300px; */
+}
+ /* Start for Styling for the first banner */
+.banner{
+    width:100%;
+    background: black;
+    position: relative;
+}
+
+.b-row{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    max-width: 1184px;
+    width: 100%;
+    display: flex;
+    background-color:black;
+    flex-wrap: wrap;
+    flex:1 0 auto
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+    /* position: relative; */
+}
+
+.b-row a img{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+
+/* End of Styling for First Banner */
+
+
+/* =========================
+============================ */
+
+
+/* Start of Styling for Second Banner  */
+.sb{
+    width: 100%;
+    max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f1f1f2;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0 4px;
+    /* text-align: center; */
+}
+
+.wd{
+    color: white;
+    margin: 0 230px;
+    display: flex;
+
+}
+
+.sb :nth-child(1){
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: yellow;
+    width: 100%;
+    max-width: 1184px;
+}
+
+/* Start of Styling for Mid Nav***/
+.mid-nav{
+    background-color: white;
+    display: flex;
+    /* width:100%; */
+    /* margin: 0 25px; */
+    padding: 16px 0px;
+    border: 0px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* position:static;
+    top: 20; */
+}
+/*Style for Logo*/
+.logo a {
+    display: flex;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 0 8px;
+    width: 25%;
+    text-decoration: none;
+
+}
+.logo i{
+    color: #f68e1b;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    font-size: 1rem;
+}
+/*Search_bar**/
+
+.search-bar{
+    width:40%;
+    display: flex;
+    flex-grow: 1.5;
+    /* background-color: red; */
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    /* color: white; */
+}
+
+input{
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 5px;
+    /* color: white; */
+}
+input::placeholder {
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+    padding: 3px;
+  }
+  .search-bar-holder{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    /* padding: 0 250px; */
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 3px;
+    opacity: 0.5;
+}
+.search-btn{
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 12px;
+    padding:10px 30px;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+.search-btn:hover{
+    background-color: orangered;
+    /* padding-bottom: 2px; */
+}
+.search-icon{
+    position:relative;
+    left: 50px;
+    margin:15px 10px;
+    color: black;
+}
